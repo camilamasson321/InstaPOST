@@ -1,50 +1,62 @@
 body{
     background:black;
     margin: 0;
-    font-family: }
-    div{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+div{
         box-sizing:border-box;
     }
-    header{
+header{
         background:white;
         padding: 10px;
     }
-    header h1{
+header h1{
         margin:0;
     }
-    .post{
+.post{
         background: white;
         margin-top: 10px;
     }
-    .post img{
+.post img{
         width:100%;
         height:auto;
     }
-    .postheader{
+.postheader{
         width: 100%;
         display: flex;
-        justify-content: space-between;
+        justify-content:flex-start;
         align-items: center;
     }
-    .postheader h2{
+.postheader h2{
         flex-basis:80%;
     }
-    .postheader span{
-        flex-basis: 20%;
-        text-align: center;
-        padding:10px;
-        color:rgb(201, 197, 197);
-    }
-    .post h2{
+.post h2{
         padding: 10px;
         margin:0px;
     }
-    .post p{
+.post p{
         padding: 10px;
     }
     
-    .container{
-        width: 600px;
+.container{
+        width: 500px;
         margin: auto;
     }
+.fa-brands {
+    color: black;
+    font-size:x-large
     
+}
+.fa-solid {
+    align-self: flex-end;
+    font-size: x-large;
+}
+.fa-regular {
+    font-size: x-large;
+}
+.fa-light{
+    font-size: x-large;
+}
+.fa-thin{
+    font-size: x-large;
+}
