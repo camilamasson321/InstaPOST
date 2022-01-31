@@ -6,13 +6,6 @@ body{
 div{
         box-sizing:border-box;
     }
-header{
-        background:white;
-        padding: 10px;
-    }
-header h1{
-        margin:0;
-    }
 .post{
         background: white;
         margin-top: 10px;
@@ -21,35 +14,33 @@ header h1{
         width:100%;
         height:auto;
     }
-.postheader{
+.postheader {
         width: 100%;
         display: flex;
         justify-content:flex-start;
         align-items: center;
     }
-.postheader h2{
-        flex-basis:80%;
-    }
-.post h2{
-        padding: 10px;
-        margin:0px;
-    }
+.postheader .icon .name {
+    flex-basis: 30%;
+}
+.postheader .ellipsis {
+   justify-content: center; 
+   font-size: x-large;
+   flex-basis: 70%;
+   margin-left: 355px;
+}
 .post p{
-        padding: 10px;
+        margin: 10px;
+        padding: 5px;
     }
-    
 .container{
         width: 500px;
         margin: auto;
     }
 .fa-brands {
     color: black;
-    font-size:x-large
-    
-}
-.fa-solid {
-    align-self: flex-end;
-    font-size: x-large;
+    font-size:x-large;
+    margin-left: 10px;
 }
 .fa-regular {
     font-size: x-large;
@@ -59,4 +50,8 @@ header h1{
 }
 .fa-thin{
     font-size: x-large;
+    margin-left: 365px;
+}
+.likeIcons{
+    margin-left: 12px;
 }
