@@ -8,7 +8,7 @@ div{
     }
 .post{
         background: white;
-        margin-top: 10px;
+        margin-top: 20px;
     }
 .post img{
         width:100%;
@@ -27,12 +27,19 @@ div{
    justify-content: center; 
    font-size: x-large;
    flex-basis: 70%;
-   margin-left: 355px;
+   margin-left: 70%;
 }
 .post p{
         margin: 10px;
         padding: 5px;
     }
+.post > p > .lorem {
+    padding-bottom: 20px;
+}
+.lorem {
+    margin-bottom: 10px;
+    padding-bottom: 20px !important;
+}
 .container{
         width: 500px;
         margin: auto;
@@ -48,10 +55,16 @@ div{
 .fa-light{
     font-size: x-large;
 }
-.fa-thin{
-    font-size: x-large;
-    margin-left: 365px;
+.bottomIcons{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 10px;
 }
 .likeIcons{
-    margin-left: 12px;
+    flex-basis: 32%;
+}
+.bookmark{
+    font-size: x-large;
+    margin-left: 60%;
 }
